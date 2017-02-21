@@ -1,0 +1,11 @@
+..\OBJ\clock.o: ..\SYSTEM\clock.c
+..\OBJ\clock.o: ..\SYSTEM\clock.h
+..\OBJ\clock.o: ..\SYSTEM\stmlib.h
+..\OBJ\clock.o: ..\USER\stm32f10x.h
+..\OBJ\clock.o: ..\CORE\core_cm3.h
+..\OBJ\clock.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\clock.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\OBJ\clock.o: ..\USER\rhx.h
+..\OBJ\clock.o: ..\USER\led.h
+..\OBJ\clock.o: ..\USER\export.h
+..\OBJ\clock.o: ..\USER\hb.h

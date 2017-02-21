@@ -1,0 +1,31 @@
+*** Creating Trace Output File '..\OBJ\ZX60-5026.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\main.o"'
+### List of Objects: adding '"..\obj\stm32f10x_it.o"'
+### List of Objects: adding '"..\obj\led.o"'
+### List of Objects: adding '"..\obj\export.o"'
+### List of Objects: adding '"..\obj\hb.o"'
+### List of Objects: adding '"..\obj\wifi_init.o"'
+### List of Objects: adding '"..\obj\ch374hft.o"'
+### List of Objects: adding '"..\obj\clock.o"'
+### List of Objects: adding '"..\obj\flash.o"'
+### List of Objects: adding '"..\obj\stmlib.o"'
+### List of Objects: adding '"..\SYSTEM\CH374HFM.LIB"'
+### List of Objects: adding '"..\obj\startup_stm32f10x_md.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\obj\main.o" "..\obj\stm32f10x_it.o" "..\obj\led.o" "..\obj\export.o" "..\obj\hb.o" "..\obj\wifi_init.o" "..\obj\ch374hft.o" "..\obj\clock.o" "..\obj\flash.o" "..\obj\stmlib.o" "G:\项目中心2015\灯笼\软件系统\程序\60-BMW - 5026正装 -随机花样\SYSTEM\CH374HFM.LIB" "..\obj\startup_stm32f10x_md.o" 
+--library_type=microlib --strict --scatter "..\OBJ\ZX60-5026.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ZX60-5026.map" -o ..\OBJ\ZX60-5026.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OBJ\ZX60-5026.axf'
+### ADS-LD Command File: '..\OBJ\ZX60-5026.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OBJ\ZX60-5026.lnp', Handle=0x000005CC
+### Writing '.lnp' file
+### ADS-LD Command file '..\OBJ\ZX60-5026.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,839 @@
+ARM Linker, 5.03 [Build 24] [MDK-ARM Standard]
+
+==============================================================================
+
+Section Cross References
+
+    main.o(.text) refers to stmlib.o(.text) for RCC_Configuration
+    main.o(.text) refers to led.o(.text) for flash_read_write
+    main.o(.text) refers to ch374hft.o(.text) for ch734init
+    main.o(.text) refers to flash.o(.text) for FLASH_Unlock
+    main.o(.text) refers to memseta.o(.text) for __aeabi_memclr
+    main.o(.text) refers to led.o(.bss) for scr_info
+    main.o(.text) refers to main.o(.data) for .data
+    main.o(.text) refers to wifi_init.o(.data) for wifi_init_flag
+    main.o(.text) refers to led.o(.data) for flashcheckerr
+    stm32f10x_it.o(.text) refers to stmlib.o(.text) for SoftReset
+    led.o(.text) refers to memseta.o(.text) for __aeabi_memclr4
+    led.o(.text) refers to stmlib.o(.text) for timer_init4
+    led.o(.text) refers to flash.o(.text) for FLASH_Unlock
+    led.o(.text) refers to led.o(.constdata) for .constdata
+    led.o(.text) refers to led.o(.bss) for .bss
+    led.o(.text) refers to led.o(.data) for .data
+    led.o(.text) refers to export.o(.data) for hx
+    led.o(.text) refers to export.o(.text) for ledplay_dcolor_64
+    led.o(.text) refers to clock.o(.text) for show_timers
+    led.o(.text) refers to export.o(.data) for dis_length
+    led.o(.text) refers to hb.o(.bss) for hb
+    led.o(.text) refers to clock.o(.data) for time32
+    led.o(.text) refers to hb.o(.text) for area_hb
+    led.o(.text) refers to wifi_init.o(.data) for wifi_init_flag
+    led.o(.text) refers to memcpya.o(.text) for __aeabi_memcpy
+    led.o(.text) refers to stmlib.o(.constdata) for card_style
+    export.o(.text) refers to stmlib.o(.text) for TIM4_Cmd
+    export.o(.text) refers to led.o(.data) for screen_len
+    export.o(.text) refers to led.o(.bss) for scr_info
+    export.o(.text) refers to export.o(.data) for .data
+    export.o(.text) refers to export.o(.constdata) for .constdata
+    hb.o(.text) refers to flash.o(.text) for flash_read
+    hb.o(.text) refers to led.o(.text) for srs
+    hb.o(.text) refers to led.o(.data) for screen_len
+    hb.o(.text) refers to hb.o(.data) for .data
+    hb.o(.text) refers to hb.o(.bss) for .bss
+    hb.o(.text) refers to led.o(.bss) for leddata
+    wifi_init.o(.text) refers to stmlib.o(.text) for send_string
+    wifi_init.o(.text) refers to strstr.o(.text) for strstr
+    wifi_init.o(.text) refers to strchr.o(.text) for strchr
+    wifi_init.o(.text) refers to wifi_init.o(.data) for .data
+    wifi_init.o(.text) refers to led.o(.data) for buf_num
+    wifi_init.o(.text) refers to led.o(.bss) for usart_buf
+    wifi_init.o(.text) refers to led.o(.text) for flash_read_write
+    ch374hft.o(.text) refers to CH374MAI.O(.text) for CH374FileModify
+    ch374hft.o(.text) refers to stmlib.o(.text) for send_byte
+    ch374hft.o(.text) refers to strcpy.o(.text) for strcpy
+    ch374hft.o(.text) refers to CH374BYT.O(.text) for CH374ByteRead
+    ch374hft.o(.text) refers to flash.o(.text) for flash_chip_erase
+    ch374hft.o(.text) refers to led.o(.text) for flash_read_write
+    ch374hft.o(.text) refers to CH374SEC.O(.text) for CH374FileReadX
+    ch374hft.o(.text) refers to ch374hft.o(.bss) for .bss
+    ch374hft.o(.text) refers to ch374hft.o(.data) for .data
+    ch374hft.o(.text) refers to CH374MAI.O(.data) for pDISK_BASE_BUF
+    ch374hft.o(.text) refers to led.o(.data) for flash_addr
+    ch374hft.o(.text) refers to led.o(.bss) for sim_buf_red
+    ch374hft.o(.data) refers to led.o(.bss) for leddata
+    clock.o(.text) refers to flash.o(.text) for flash_read
+    clock.o(.text) refers to led.o(.text) for srs
+    clock.o(.text) refers to led.o(.data) for flash_addr
+    clock.o(.text) refers to led.o(.bss) for sim_buf_red
+    clock.o(.text) refers to clock.o(.data) for .data
+    clock.o(.text) refers to stmlib.o(.text) for settime
+    flash.o(.text) refers to stmlib.o(.text) for send_byte
+    flash.o(.text) refers to led.o(.data) for flash_addr
+    stmlib.o(.text) refers to ffltui.o(.text) for __aeabi_ui2f
+    stmlib.o(.text) refers to fdiv.o(.text) for __aeabi_fdiv
+    stmlib.o(.text) refers to ffixui.o(.text) for __aeabi_f2uiz
+    stmlib.o(.text) refers to fadd.o(.text) for __aeabi_frsub
+    stmlib.o(.text) refers to fscalb.o(.text) for __ARM_scalbnf
+    stmlib.o(.text) refers to stmlib.o(.data) for .data
+    stmlib.o(.text) refers to memseta.o(.text) for __aeabi_memset
+    stmlib.o(.text) refers to main.o(.data) for rtc_error_flag
+    stmlib.o(.text) refers to clock.o(.data) for time32
+    stmlib.o(.text) refers to stmlib.o(.constdata) for .constdata
+    stmlib.o(.text) refers to led.o(.bss) for buf
+    stmlib.o(.text) refers to led.o(.data) for datn16
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(.text) for Reset_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(.text) for NMI_Handler
+    startup_stm32f10x_md.o(RESET) refers to led.o(.text) for RTC_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to wifi_init.o(.text) for TIM1_UP_IRQHandler
+    startup_stm32f10x_md.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    CH374MAI.O(.text) refers to ch374hft.o(.text) for CH374_READ_REGISTER
+    CH374MAI.O(.text) refers to CH374MAI.O(.data) for CH374v19
+    CH374MAI.O(.text) refers to ch374hft.o(.bss) for mBOC
+    CH374MAI.O(.text) refers to ch374hft.o(.bss) for mCmdParam
+    CH374SEC.O(.text) refers to CH374MAI.O(.text) for CH374s18
+    CH374SEC.O(.text) refers to ch374hft.o(.text) for CH374_WRITE_REGISTER
+    CH374SEC.O(.text) refers to ch374hft.o(.bss) for mCmdParam
+    CH374SEC.O(.text) refers to CH374MAI.O(.data) for CH374v26
+    CH374BYT.O(.text) refers to CH374MAI.O(.text) for CH374s05
+    CH374BYT.O(.text) refers to CH374MAI.O(.data) for CH374DiskStatus
+    CH374BYT.O(.text) refers to ch374hft.o(.bss) for mCmdParam
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    fadd.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    fadd.o(.text) refers to fepilogue.o(.text) for _float_epilogue
+    fdiv.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    fdiv.o(.text) refers to fepilogue.o(.text) for _float_round
+    fscalb.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    ffltui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    ffltui.o(.text) refers to fepilogue.o(.text) for _float_epilogue
+    ffixui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing led.o(.data), (1 bytes).
+    Removing led.o(.data), (1 bytes).
+    Removing led.o(.data), (1 bytes).
+    Removing wifi_init.o(.data), (9 bytes).
+    Removing wifi_init.o(.data), (35 bytes).
+    Removing wifi_init.o(.data), (9 bytes).
+    Removing wifi_init.o(.data), (32 bytes).
+    Removing wifi_init.o(.data), (20 bytes).
+    Removing wifi_init.o(.data), (6 bytes).
+    Removing ch374hft.o(.data), (2 bytes).
+    Removing startup_stm32f10x_md.o(HEAP), (512 bytes).
+
+11 unused section(s) (total 628 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/string/memset.c         0x00000000   Number         0  memseta.o ABSOLUTE
+    ../clib/microlib/string/strchr.c         0x00000000   Number         0  strchr.o ABSOLUTE
+    ../clib/microlib/string/strcpy.c         0x00000000   Number         0  strcpy.o ABSOLUTE
+    ../clib/microlib/string/strstr.c         0x00000000   Number         0  strstr.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../fplib/microlib/fpadd.c                0x00000000   Number         0  fadd.o ABSOLUTE
+    ../fplib/microlib/fpdiv.c                0x00000000   Number         0  fdiv.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  fepilogue.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  ffixui.o ABSOLUTE
+    ../fplib/microlib/fpflt.c                0x00000000   Number         0  ffltui.o ABSOLUTE
+    ../fplib/microlib/fpscalb.c              0x00000000   Number         0  fscalb.o ABSOLUTE
+    ..\CORE\startup_stm32f10x_md.s           0x00000000   Number         0  startup_stm32f10x_md.o ABSOLUTE
+    ..\SYSTEM\CH374HFT.C                     0x00000000   Number         0  ch374hft.o ABSOLUTE
+    ..\SYSTEM\clock.c                        0x00000000   Number         0  clock.o ABSOLUTE
+    ..\SYSTEM\flash.c                        0x00000000   Number         0  flash.o ABSOLUTE
+    ..\SYSTEM\stmlib.c                       0x00000000   Number         0  stmlib.o ABSOLUTE
+    CH374BYT.C                               0x00000000   Number         0  CH374BYT.O ABSOLUTE
+    CH374MAI.C                               0x00000000   Number         0  CH374MAI.O ABSOLUTE
+    CH374SEC.C                               0x00000000   Number         0  CH374SEC.O ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    export.c                                 0x00000000   Number         0  export.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    hb.c                                     0x00000000   Number         0  hb.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    led.c                                    0x00000000   Number         0  led.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    stm32f10x_it.c                           0x00000000   Number         0  stm32f10x_it.o ABSOLUTE
+    wifi_init.c                              0x00000000   Number         0  wifi_init.o ABSOLUTE
+    RESET                                    0x08000800   Section      236  startup_stm32f10x_md.o(RESET)
+    .ARM.Collect$$$$00000000                 0x080008ec   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x080008ec   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x080008f0   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x080008f4   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x080008f4   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x080008f4   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x080008fc   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x080008fc   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x080008fc   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x080008fc   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x08000900   Section        0  main.o(.text)
+    delay                                    0x08000901   Thumb Code     6  main.o(.text)
+    .text                                    0x08000ce4   Section        0  stm32f10x_it.o(.text)
+    .text                                    0x08000d1c   Section        0  led.o(.text)
+    LEDShowVersion                           0x08000d91   Thumb Code   128  led.o(.text)
+    LEDShowModifyDate                        0x08000e11   Thumb Code   134  led.o(.text)
+    GetCnt                                   0x0800423b   Thumb Code    62  led.o(.text)
+    delay                                    0x08004ccb   Thumb Code     6  led.o(.text)
+    .text                                    0x0800532c   Section        0  export.o(.text)
+    .text                                    0x08006cb4   Section        0  hb.o(.text)
+    .text                                    0x08007ce0   Section        0  wifi_init.o(.text)
+    .text                                    0x080083cc   Section        0  ch374hft.o(.text)
+    Spi374Start                              0x080083e3   Thumb Code    26  ch374hft.o(.text)
+    .text                                    0x08008a8c   Section        0  clock.o(.text)
+    .text                                    0x08009980   Section        0  flash.o(.text)
+    isBusy                                   0x080099cb   Thumb Code    36  flash.o(.text)
+    FlashUnprotect                           0x080099ef   Thumb Code    76  flash.o(.text)
+    .text                                    0x08009bb8   Section        0  stmlib.o(.text)
+    .text                                    0x0800a6f0   Section       28  startup_stm32f10x_md.o(.text)
+    .text                                    0x0800a70c   Section        0  CH374MAI.O(.text)
+    CH374s02                                 0x0800a731   Thumb Code    20  CH374MAI.O(.text)
+    CH374s29                                 0x0800a79f   Thumb Code    46  CH374MAI.O(.text)
+    CH374s31                                 0x0800ab1d   Thumb Code    26  CH374MAI.O(.text)
+    CH374s30                                 0x0800ab37   Thumb Code    30  CH374MAI.O(.text)
+    CH374s27                                 0x0800b08f   Thumb Code    46  CH374MAI.O(.text)
+    CH374s26                                 0x0800b3bd   Thumb Code    32  CH374MAI.O(.text)
+    .text                                    0x0800c748   Section        0  CH374SEC.O(.text)
+    CH374s28                                 0x0800c749   Thumb Code    30  CH374SEC.O(.text)
+    .text                                    0x0800cb30   Section        0  CH374BYT.O(.text)
+    CH374s16                                 0x0800cb31   Thumb Code    54  CH374BYT.O(.text)
+    .text                                    0x0800cd64   Section        0  memcpya.o(.text)
+    .text                                    0x0800cd88   Section        0  memseta.o(.text)
+    .text                                    0x0800cdac   Section        0  strstr.o(.text)
+    .text                                    0x0800cdd0   Section        0  strchr.o(.text)
+    .text                                    0x0800cde4   Section        0  strcpy.o(.text)
+    .text                                    0x0800cdf6   Section        0  fadd.o(.text)
+    .text                                    0x0800cea6   Section        0  fdiv.o(.text)
+    .text                                    0x0800cf26   Section        0  fscalb.o(.text)
+    .text                                    0x0800cf3e   Section        0  ffltui.o(.text)
+    .text                                    0x0800cf48   Section        0  ffixui.o(.text)
+    .text                                    0x0800cf70   Section        0  iusefp.o(.text)
+    .text                                    0x0800cf70   Section        0  fepilogue.o(.text)
+    .text                                    0x0800cfdc   Section       36  init.o(.text)
+    i.__scatterload_copy                     0x0800d000   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x0800d00e   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x0800d010   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .constdata                               0x0800d01e   Section      960  led.o(.constdata)
+    .constdata                               0x0800d3de   Section       16  export.o(.constdata)
+    .constdata                               0x0800d3ee   Section      214  stmlib.o(.constdata)
+    .constdata                               0x0800d4c4   Section      160  stmlib.o(.constdata)
+    .data                                    0x20000000   Section        4  main.o(.data)
+    .data                                    0x20000004   Section       52  led.o(.data)
+    cnt                                      0x2000000b   Data           1  led.o(.data)
+    sw                                       0x2000000c   Data           1  led.o(.data)
+    temp                                     0x2000000d   Data           1  led.o(.data)
+    .data                                    0x20000038   Section       19  export.o(.data)
+    .data                                    0x2000004b   Section        1  export.o(.data)
+    .data                                    0x2000004c   Section        2  hb.o(.data)
+    cnt_hb                                   0x2000004c   Data           1  hb.o(.data)
+    cs                                       0x2000004d   Data           1  hb.o(.data)
+    .data                                    0x2000004e   Section       55  wifi_init.o(.data)
+    .data                                    0x20000088   Section        8  ch374hft.o(.data)
+    .data                                    0x20000090   Section        8  clock.o(.data)
+    .data                                    0x20000098   Section        1  stmlib.o(.data)
+    .data                                    0x2000009c   Section       93  CH374MAI.O(.data)
+    .bss                                     0x200000fc   Section    11014  led.o(.bss)
+    .bss                                     0x20002c04   Section      296  hb.o(.bss)
+    .bss                                     0x20002d2c   Section       32  ch374hft.o(.bss)
+    .bss                                     0x20002d4c   Section       20  ch374hft.o(.bss)
+    STACK                                    0x20002d60   Section     2048  startup_stm32f10x_md.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$P$D$K$B$S$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OTIME$ROPI$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_Size                           0x000000ec   Number         0  startup_stm32f10x_md.o ABSOLUTE
+    __Vectors                                0x08000800   Data           4  startup_stm32f10x_md.o(RESET)
+    __Vectors_End                            0x080008ec   Data           0  startup_stm32f10x_md.o(RESET)
+    __main                                   0x080008ed   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x080008ed   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x080008f1   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x080008f5   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x080008f5   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x080008f5   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x080008f5   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x080008fd   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x080008fd   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    main                                     0x08000907   Thumb Code   912  main.o(.text)
+    NMI_Handler                              0x08000ce5   Thumb Code     2  stm32f10x_it.o(.text)
+    HardFault_Handler                        0x08000ce7   Thumb Code    36  stm32f10x_it.o(.text)
+    MemManage_Handler                        0x08000d0b   Thumb Code     2  stm32f10x_it.o(.text)
+    BusFault_Handler                         0x08000d0d   Thumb Code     2  stm32f10x_it.o(.text)
+    UsageFault_Handler                       0x08000d0f   Thumb Code     2  stm32f10x_it.o(.text)
+    SVC_Handler                              0x08000d11   Thumb Code     2  stm32f10x_it.o(.text)
+    DebugMon_Handler                         0x08000d13   Thumb Code     2  stm32f10x_it.o(.text)
+    PendSV_Handler                           0x08000d15   Thumb Code     2  stm32f10x_it.o(.text)
+    SysTick_Handler                          0x08000d17   Thumb Code     2  stm32f10x_it.o(.text)
+    ShowRtcError                             0x08000d1d   Thumb Code   116  led.o(.text)
+    ShowVersion                              0x08000e97   Thumb Code   134  led.o(.text)
+    clr_screen                               0x08000f1d   Thumb Code   128  led.o(.text)
+    init_t4                                  0x08000f9d   Thumb Code   118  led.o(.text)
+    defaultplay                              0x08001013   Thumb Code     2  led.o(.text)
+    flash_read_write                         0x08001015   Thumb Code    96  led.o(.text)
+    read_buf                                 0x08001075   Thumb Code    50  led.o(.text)
+    screen_init                              0x080010a7   Thumb Code  1560  led.o(.text)
+    info_init                                0x080016bf   Thumb Code   196  led.o(.text)
+    area_deal                                0x08001783   Thumb Code   268  led.o(.text)
+    program_deal                             0x0800188f   Thumb Code   450  led.o(.text)
+    srs                                      0x08001a51   Thumb Code    16  led.o(.text)
+    write_hsel                               0x08001a61   Thumb Code   120  led.o(.text)
+    getbit                                   0x08001ad9   Thumb Code    52  led.o(.text)
+    clr_buf                                  0x08001b0d   Thumb Code    94  led.o(.text)
+    still_display                            0x08001b6b   Thumb Code   234  led.o(.text)
+    pull_up_down_screen                      0x08001c55   Thumb Code   228  led.o(.text)
+    clear                                    0x08001d39   Thumb Code    40  led.o(.text)
+    pull_left_right_screen                   0x08001d61   Thumb Code   570  led.o(.text)
+    closed_down_screen                       0x08001f9b   Thumb Code   174  led.o(.text)
+    down_on_screen                           0x08002049   Thumb Code    20  led.o(.text)
+    left_right_close                         0x0800205d   Thumb Code   370  led.o(.text)
+    left_right_open                          0x080021cf   Thumb Code    22  led.o(.text)
+    V_blinds                                 0x080021e5   Thumb Code   318  led.o(.text)
+    H_blinds                                 0x08002323   Thumb Code   156  led.o(.text)
+    up_move                                  0x080023bf   Thumb Code   766  led.o(.text)
+    down_move                                0x080026bd   Thumb Code   758  led.o(.text)
+    left_move                                0x080029b3   Thumb Code   952  led.o(.text)
+    right_move                               0x08002d6b   Thumb Code   970  led.o(.text)
+    datadeal_move                            0x08003135   Thumb Code   242  led.o(.text)
+    datadeal_word                            0x08003227   Thumb Code   242  led.o(.text)
+    PutPixel                                 0x08003319   Thumb Code    88  led.o(.text)
+    printf_line                              0x08003371   Thumb Code   410  led.o(.text)
+    show_second                              0x0800350b   Thumb Code   290  led.o(.text)
+    datadeal_sim                             0x0800362d   Thumb Code  1520  led.o(.text)
+    datadeal_digi                            0x08003c1d   Thumb Code   226  led.o(.text)
+    datn_deal                                0x08003cff   Thumb Code   476  led.o(.text)
+    pro_end                                  0x08003edb   Thumb Code   138  led.o(.text)
+    sj                                       0x08003f65   Thumb Code    52  led.o(.text)
+    info_delay                               0x08003f99   Thumb Code    42  led.o(.text)
+    datadeal                                 0x08003fc3   Thumb Code   632  led.o(.text)
+    timer_bright_set                         0x08004279   Thumb Code    56  led.o(.text)
+    rcc_set                                  0x080042b1   Thumb Code    80  led.o(.text)
+    USART1_IRQHandler                        0x08004301   Thumb Code  1696  led.o(.text)
+    TIM2_IRQHandler                          0x080049a1   Thumb Code    28  led.o(.text)
+    TIM4_IRQHandler                          0x080049bd   Thumb Code    70  led.o(.text)
+    TIM3_IRQHandler                          0x08004a03   Thumb Code   226  led.o(.text)
+    time_sw                                  0x08004ae5   Thumb Code   170  led.o(.text)
+    timer_bright_check                       0x08004b8f   Thumb Code   102  led.o(.text)
+    RTC_IRQHandler                           0x08004bf5   Thumb Code   214  led.o(.text)
+    EXTI15_10_IRQHandler                     0x08004cd1   Thumb Code  1080  led.o(.text)
+    show                                     0x08005109   Thumb Code    64  led.o(.text)
+    show_info                                0x08005149   Thumb Code    54  led.o(.text)
+    show_err                                 0x0800517f   Thumb Code   176  led.o(.text)
+    sendtime                                 0x0800522f   Thumb Code    68  led.o(.text)
+    flash_check                              0x08005273   Thumb Code   142  led.o(.text)
+    HL_LC                                    0x0800532d   Thumb Code    28  export.o(.text)
+    export_d64                               0x08005349   Thumb Code   634  export.o(.text)
+    export_d32                               0x080055c3   Thumb Code   390  export.o(.text)
+    ledplay_dcolor_64                        0x08005749   Thumb Code   882  export.o(.text)
+    ledplay_dcolor_32                        0x08005abb   Thumb Code  1268  export.o(.text)
+    ledplay_dcolor_16                        0x08005faf   Thumb Code   462  export.o(.text)
+    export_s64                               0x0800617d   Thumb Code   326  export.o(.text)
+    ledplay_Single_64                        0x080062c3   Thumb Code   696  export.o(.text)
+    export_s48                               0x0800657b   Thumb Code   280  export.o(.text)
+    export_s32                               0x08006693   Thumb Code   208  export.o(.text)
+    ledplay_Single_48                        0x08006763   Thumb Code   470  export.o(.text)
+    ledplay_Single_32                        0x08006939   Thumb Code   572  export.o(.text)
+    ledplay_EXTI                             0x08006b75   Thumb Code   310  export.o(.text)
+    hb_way                                   0x08006cb5   Thumb Code   152  hb.o(.text)
+    area_hb                                  0x08006d4d   Thumb Code   782  hb.o(.text)
+    hb_deal                                  0x0800705b   Thumb Code  1218  hb.o(.text)
+    hb_move_deal                             0x0800751d   Thumb Code  1758  hb.o(.text)
+    clear_hb                                 0x08007bfb   Thumb Code   226  hb.o(.text)
+    send_at_start                            0x08007ce1   Thumb Code     8  wifi_init.o(.text)
+    send_at_WAKEY                            0x08007ce9   Thumb Code    66  wifi_init.o(.text)
+    send_at_WAP                              0x08007d2b   Thumb Code    82  wifi_init.o(.text)
+    send_at_reset                            0x08007d7d   Thumb Code    10  wifi_init.o(.text)
+    buf_clr                                  0x08007d87   Thumb Code    22  wifi_init.o(.text)
+    TIM1_UP_IRQHandler                       0x08007d9d   Thumb Code  1574  wifi_init.o(.text)
+    CH374FileQuery                           0x080083cd   Thumb Code    22  ch374hft.o(.text)
+    CH374_WRITE_REGISTER                     0x080083fd   Thumb Code    28  ch374hft.o(.text)
+    CH374Reset                               0x08008419   Thumb Code    42  ch374hft.o(.text)
+    CH374_READ_REGISTER                      0x08008443   Thumb Code    26  ch374hft.o(.text)
+    xQueryInterrupt                          0x0800845d   Thumb Code    14  ch374hft.o(.text)
+    xFileNameEnumer                          0x0800846b   Thumb Code     2  ch374hft.o(.text)
+    CH374LibInit                             0x0800846d   Thumb Code    30  ch374hft.o(.text)
+    CH374_READ_BLOCK                         0x0800848b   Thumb Code    46  ch374hft.o(.text)
+    CH374_WRITE_BLOCK                        0x080084b9   Thumb Code    44  ch374hft.o(.text)
+    CH374_READ_BLOCK64                       0x080084e5   Thumb Code    44  ch374hft.o(.text)
+    CH374_WRITE_BLOCK64                      0x08008511   Thumb Code    42  ch374hft.o(.text)
+    CH374_WRITE_BLOCK_C                      0x0800853b   Thumb Code    42  ch374hft.o(.text)
+    CH374DelaymSs                            0x08008565   Thumb Code    32  ch374hft.o(.text)
+    UdiskOperate                             0x08008585   Thumb Code  1100  ch374hft.o(.text)
+    ch734init                                0x080089d1   Thumb Code   138  ch374hft.o(.text)
+    __dig_write                              0x08008a8d   Thumb Code   202  clock.o(.text)
+    dig_write                                0x08008b57   Thumb Code   492  clock.o(.text)
+    asc_check                                0x08008d43   Thumb Code   308  clock.o(.text)
+    dig_clock_deal                           0x08008e77   Thumb Code  1458  clock.o(.text)
+    time_count                               0x08009429   Thumb Code  1192  clock.o(.text)
+    show_timers                              0x080098d1   Thumb Code   158  clock.o(.text)
+    flash_read                               0x08009981   Thumb Code    74  flash.o(.text)
+    flash_byte_write                         0x08009a3b   Thumb Code    78  flash.o(.text)
+    flash_chip_erase                         0x08009a89   Thumb Code    34  flash.o(.text)
+    flash_sum                                0x08009aab   Thumb Code    34  flash.o(.text)
+    FLASH_Unlock                             0x08009acd   Thumb Code    12  flash.o(.text)
+    FLASH_Lock                               0x08009ad9   Thumb Code    12  flash.o(.text)
+    STMFLASH_GetStatus                       0x08009ae5   Thumb Code    32  flash.o(.text)
+    STMFLASH_WaitDone                        0x08009b05   Thumb Code    28  flash.o(.text)
+    FLASH_ErasePage                          0x08009b21   Thumb Code    58  flash.o(.text)
+    STMFLASH_WriteWord                       0x08009b5b   Thumb Code    74  flash.o(.text)
+    RCC_Configuration                        0x08009bb9   Thumb Code   274  stmlib.o(.text)
+    uart_init                                0x08009ccb   Thumb Code   106  stmlib.o(.text)
+    timer1_init                              0x08009d35   Thumb Code    86  stmlib.o(.text)
+    timer_init                               0x08009d8b   Thumb Code    54  stmlib.o(.text)
+    timer3_init                              0x08009dc1   Thumb Code    80  stmlib.o(.text)
+    timer_init4                              0x08009e11   Thumb Code    64  stmlib.o(.text)
+    TIM4_Cmd                                 0x08009e51   Thumb Code    12  stmlib.o(.text)
+    MY_NVIC_Init                             0x08009e5d   Thumb Code    38  stmlib.o(.text)
+    NVIC_Configuration                       0x08009e83   Thumb Code    82  stmlib.o(.text)
+    GPIO_Configuration                       0x08009ed5   Thumb Code    58  stmlib.o(.text)
+    spi_init                                 0x08009f0f   Thumb Code    44  stmlib.o(.text)
+    send_byte                                0x08009f3b   Thumb Code    22  stmlib.o(.text)
+    Ex_NVIC_Config                           0x08009f51   Thumb Code   176  stmlib.o(.text)
+    exti_init                                0x0800a001   Thumb Code    24  stmlib.o(.text)
+    RTC_GetCounter                           0x0800a019   Thumb Code    26  stmlib.o(.text)
+    RTC_SET                                  0x0800a033   Thumb Code    82  stmlib.o(.text)
+    gettime                                  0x0800a085   Thumb Code   490  stmlib.o(.text)
+    settime                                  0x0800a26f   Thumb Code   214  stmlib.o(.text)
+    date_switch                              0x0800a345   Thumb Code   356  stmlib.o(.text)
+    rtc_init                                 0x0800a4a9   Thumb Code   424  stmlib.o(.text)
+    ur                                       0x0800a651   Thumb Code    18  stmlib.o(.text)
+    ut                                       0x0800a663   Thumb Code    16  stmlib.o(.text)
+    send_string                              0x0800a673   Thumb Code    38  stmlib.o(.text)
+    IWDG_Init                                0x0800a699   Thumb Code    24  stmlib.o(.text)
+    IWDG_Feed                                0x0800a6b1   Thumb Code    10  stmlib.o(.text)
+    SoftReset                                0x0800a6bb   Thumb Code    14  stmlib.o(.text)
+    Reset_Handler                            0x0800a6f1   Thumb Code     4  startup_stm32f10x_md.o(.text)
+    ADC1_2_IRQHandler                        0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    CAN1_RX1_IRQHandler                      0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    CAN1_SCE_IRQHandler                      0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    DMA1_Channel1_IRQHandler                 0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    DMA1_Channel2_IRQHandler                 0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    DMA1_Channel3_IRQHandler                 0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    DMA1_Channel4_IRQHandler                 0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    DMA1_Channel5_IRQHandler                 0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    DMA1_Channel6_IRQHandler                 0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    DMA1_Channel7_IRQHandler                 0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI0_IRQHandler                         0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI1_IRQHandler                         0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI2_IRQHandler                         0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI3_IRQHandler                         0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI4_IRQHandler                         0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    EXTI9_5_IRQHandler                       0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    FLASH_IRQHandler                         0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C1_ER_IRQHandler                       0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C1_EV_IRQHandler                       0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C2_ER_IRQHandler                       0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    I2C2_EV_IRQHandler                       0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    PVD_IRQHandler                           0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    RCC_IRQHandler                           0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    RTCAlarm_IRQHandler                      0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    SPI1_IRQHandler                          0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    SPI2_IRQHandler                          0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TAMPER_IRQHandler                        0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM1_BRK_IRQHandler                      0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM1_CC_IRQHandler                       0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    TIM1_TRG_COM_IRQHandler                  0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USART2_IRQHandler                        0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USART3_IRQHandler                        0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USBWakeUp_IRQHandler                     0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USB_HP_CAN1_TX_IRQHandler                0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    USB_LP_CAN1_RX0_IRQHandler               0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    WWDG_IRQHandler                          0x0800a707   Thumb Code     0  startup_stm32f10x_md.o(.text)
+    CH374GetVer                              0x0800a70d   Thumb Code     4  CH374MAI.O(.text)
+    CH374s01                                 0x0800a711   Thumb Code    32  CH374MAI.O(.text)
+    CH374DelaymS                             0x0800a745   Thumb Code    90  CH374MAI.O(.text)
+    CH374EmbHubAttach                        0x0800a7cd   Thumb Code    82  CH374MAI.O(.text)
+    CH374HostTransact                        0x0800a81f   Thumb Code   428  CH374MAI.O(.text)
+    CH374DirtyBuffer                         0x0800a9cb   Thumb Code    10  CH374MAI.O(.text)
+    CH374CtrlTransfer                        0x0800a9d5   Thumb Code   328  CH374MAI.O(.text)
+    CH374DiskConnect                         0x0800ab55   Thumb Code   352  CH374MAI.O(.text)
+    CH374s05                                 0x0800acb5   Thumb Code    52  CH374MAI.O(.text)
+    CH374Init                                0x0800ace9   Thumb Code   148  CH374MAI.O(.text)
+    CH374EmbHubEnable                        0x0800ad7d   Thumb Code    90  CH374MAI.O(.text)
+    CH374s23                                 0x0800add7   Thumb Code   110  CH374MAI.O(.text)
+    CH374s21                                 0x0800ae45   Thumb Code   108  CH374MAI.O(.text)
+    CH374s17                                 0x0800aeb1   Thumb Code    30  CH374MAI.O(.text)
+    CH374BulkOnlyCmd                         0x0800aecf   Thumb Code   448  CH374MAI.O(.text)
+    CH374s13                                 0x0800b0bd   Thumb Code   102  CH374MAI.O(.text)
+    mReturnErrClose                          0x0800b123   Thumb Code    32  CH374MAI.O(.text)
+    CH374s18                                 0x0800b143   Thumb Code   154  CH374MAI.O(.text)
+    CH374s06                                 0x0800b1dd   Thumb Code   480  CH374MAI.O(.text)
+    CH374s25                                 0x0800b3dd   Thumb Code   198  CH374MAI.O(.text)
+    CH374s22                                 0x0800b4a3   Thumb Code  1328  CH374MAI.O(.text)
+    CH374s08                                 0x0800b9d3   Thumb Code   948  CH374MAI.O(.text)
+    CH374s10                                 0x0800bd87   Thumb Code   562  CH374MAI.O(.text)
+    CH374FileOpen                            0x0800bfb9   Thumb Code  1440  CH374MAI.O(.text)
+    CH374FileClose                           0x0800c559   Thumb Code    68  CH374MAI.O(.text)
+    CH374FileModify                          0x0800c59d   Thumb Code    66  CH374MAI.O(.text)
+    CH374s14                                 0x0800c5df   Thumb Code    30  CH374MAI.O(.text)
+    CH374DiskReady                           0x0800c5fd   Thumb Code    94  CH374MAI.O(.text)
+    CH374s19                                 0x0800c65b   Thumb Code   166  CH374MAI.O(.text)
+    CH374ReadBlock                           0x0800c767   Thumb Code   438  CH374SEC.O(.text)
+    CH374FileLocate                          0x0800c91d   Thumb Code    72  CH374SEC.O(.text)
+    CH374FileReadX                           0x0800c965   Thumb Code   400  CH374SEC.O(.text)
+    CH374ByteLocate                          0x0800cb67   Thumb Code    74  CH374BYT.O(.text)
+    CH374ByteRead                            0x0800cbb1   Thumb Code   376  CH374BYT.O(.text)
+    __aeabi_memcpy                           0x0800cd65   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x0800cd65   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x0800cd65   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memset                           0x0800cd89   Thumb Code    14  memseta.o(.text)
+    __aeabi_memset4                          0x0800cd89   Thumb Code     0  memseta.o(.text)
+    __aeabi_memset8                          0x0800cd89   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr                           0x0800cd97   Thumb Code     4  memseta.o(.text)
+    __aeabi_memclr4                          0x0800cd97   Thumb Code     0  memseta.o(.text)
+    __aeabi_memclr8                          0x0800cd97   Thumb Code     0  memseta.o(.text)
+    _memset$wrapper                          0x0800cd9b   Thumb Code    18  memseta.o(.text)
+    strstr                                   0x0800cdad   Thumb Code    36  strstr.o(.text)
+    strchr                                   0x0800cdd1   Thumb Code    20  strchr.o(.text)
+    strcpy                                   0x0800cde5   Thumb Code    18  strcpy.o(.text)
+    __aeabi_fadd                             0x0800cdf7   Thumb Code   164  fadd.o(.text)
+    __aeabi_fsub                             0x0800ce9b   Thumb Code     6  fadd.o(.text)
+    __aeabi_frsub                            0x0800cea1   Thumb Code     6  fadd.o(.text)
+    __aeabi_fdiv                             0x0800cea7   Thumb Code   128  fdiv.o(.text)
+    __ARM_scalbnf                            0x0800cf27   Thumb Code    24  fscalb.o(.text)
+    scalbnf                                  0x0800cf27   Thumb Code     0  fscalb.o(.text)
+    __aeabi_ui2f                             0x0800cf3f   Thumb Code    10  ffltui.o(.text)
+    __aeabi_f2uiz                            0x0800cf49   Thumb Code    40  ffixui.o(.text)
+    __I$use$fp                               0x0800cf71   Thumb Code     0  iusefp.o(.text)
+    _float_round                             0x0800cf71   Thumb Code    18  fepilogue.o(.text)
+    _float_epilogue                          0x0800cf83   Thumb Code    90  fepilogue.o(.text)
+    __scatterload                            0x0800cfdd   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x0800cfdd   Thumb Code     0  init.o(.text)
+    __scatterload_copy                       0x0800d001   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x0800d00f   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x0800d011   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    ucaShowVersion                           0x0800d01e   Data         192  led.o(.constdata)
+    lenerr                                   0x0800d0de   Data         128  led.o(.constdata)
+    scanerr                                  0x0800d15e   Data         128  led.o(.constdata)
+    proerr                                   0x0800d1de   Data         128  led.o(.constdata)
+    longerr                                  0x0800d25e   Data         128  led.o(.constdata)
+    rtcerr                                   0x0800d2de   Data         128  led.o(.constdata)
+    scanbuf                                  0x0800d35e   Data         128  led.o(.constdata)
+    scan8                                    0x0800d3de   Data           8  export.o(.constdata)
+    scan8temp                                0x0800d3e6   Data           8  export.o(.constdata)
+    year_date                                0x0800d3ee   Data         153  stmlib.o(.constdata)
+    date_table                               0x0800d487   Data          12  stmlib.o(.constdata)
+    date_year                                0x0800d493   Data          49  stmlib.o(.constdata)
+    card_style                               0x0800d4c4   Data         160  stmlib.o(.constdata)
+    Region$$Table$$Base                      0x0800d564   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0800d584   Number         0  anon$$obj.o(Region$$Table)
+    rtc_error_flag                           0x20000000   Data           4  main.o(.data)
+    flashcheckerr                            0x20000004   Data           1  led.o(.data)
+    screeniniterr                            0x20000005   Data           1  led.o(.data)
+    scan_play                                0x20000006   Data           1  led.o(.data)
+    area_c                                   0x20000007   Data           1  led.o(.data)
+    offset                                   0x20000008   Data           1  led.o(.data)
+    didi                                     0x20000009   Data           1  led.o(.data)
+    buf_num                                  0x2000000a   Data           1  led.o(.data)
+    offset_green                             0x2000000e   Data           1  led.o(.data)
+    pro_flag                                 0x2000000f   Data           1  led.o(.data)
+    area_num                                 0x20000010   Data           1  led.o(.data)
+    bright                                   0x20000011   Data           1  led.o(.data)
+    ticks                                    0x20000012   Data           1  led.o(.data)
+    sec_flag                                 0x20000013   Data           1  led.o(.data)
+    pro_num                                  0x20000014   Data           1  led.o(.data)
+    pro_c                                    0x20000015   Data           1  led.o(.data)
+    __didi                                   0x20000016   Data           1  led.o(.data)
+    g_wShowVersionCnt                        0x20000018   Data           2  led.o(.data)
+    screen_len                               0x2000001a   Data           2  led.o(.data)
+    datn16                                   0x2000001c   Data           2  led.o(.data)
+    show_timer                               0x2000001e   Data           2  led.o(.data)
+    var                                      0x20000020   Data           2  led.o(.data)
+    time_sj                                  0x20000024   Data           4  led.o(.data)
+    led_play                                 0x20000028   Data           4  led.o(.data)
+    pArg                                     0x2000002c   Data           4  led.o(.data)
+    flash_addr                               0x20000030   Data           4  led.o(.data)
+    pro_addr                                 0x20000034   Data           4  led.o(.data)
+    ex_row                                   0x20000038   Data           1  export.o(.data)
+    h                                        0x20000039   Data           1  export.o(.data)
+    hx                                       0x2000003a   Data           1  export.o(.data)
+    jiade                                    0x2000003b   Data          16  export.o(.data)
+    dis_length                               0x2000004b   Data           1  export.o(.data)
+    timer1_flag                              0x2000004e   Data           1  wifi_init.o(.data)
+    wifi_config                              0x2000004f   Data           1  wifi_init.o(.data)
+    sendflag                                 0x20000050   Data           1  wifi_init.o(.data)
+    wifiinit                                 0x20000051   Data           1  wifi_init.o(.data)
+    config_tim                               0x20000052   Data           1  wifi_init.o(.data)
+    config_step                              0x20000053   Data           1  wifi_init.o(.data)
+    wifi_init_flag                           0x20000054   Data           1  wifi_init.o(.data)
+    at_start                                 0x20000055   Data           3  wifi_init.o(.data)
+    WiFi_AT_AT                               0x20000058   Data           3  wifi_init.o(.data)
+    WiFi_AT_Z                                0x2000005b   Data           5  wifi_init.o(.data)
+    WiFi_WAP_CONFIG2                         0x20000060   Data           6  wifi_init.o(.data)
+    WiFi_AT_WAKEY                            0x20000066   Data          17  wifi_init.o(.data)
+    WiFi_AT_WAP                              0x20000077   Data          14  wifi_init.o(.data)
+    DISK_BASE_BUF                            0x20000088   Data           4  ch374hft.o(.data)
+    my_buffer                                0x2000008c   Data           4  ch374hft.o(.data)
+    date32                                   0x20000090   Data           4  clock.o(.data)
+    time32                                   0x20000094   Data           4  clock.o(.data)
+    Frequency                                0x20000098   Data           1  stmlib.o(.data)
+    CH374IntStatus                           0x2000009c   Data           1  CH374MAI.O(.data)
+    CH374DiskStatus                          0x2000009d   Data           1  CH374MAI.O(.data)
+    CH374vDiskFat                            0x2000009e   Data           1  CH374MAI.O(.data)
+    CH374vSecPerClus                         0x2000009f   Data           1  CH374MAI.O(.data)
+    CH374vStartCluster                       0x200000a0   Data           4  CH374MAI.O(.data)
+    CH374vFileSize                           0x200000a4   Data           4  CH374MAI.O(.data)
+    CH374vCurrentOffset                      0x200000a8   Data           4  CH374MAI.O(.data)
+    CH374vDiskRoot                           0x200000ac   Data           4  CH374MAI.O(.data)
+    CH374vDataStart                          0x200000b0   Data           4  CH374MAI.O(.data)
+    CH374vFdtLba                             0x200000b4   Data           4  CH374MAI.O(.data)
+    CH374vFdtOffset                          0x200000b8   Data           2  CH374MAI.O(.data)
+    CH374vRetryCount                         0x200000ba   Data           1  CH374MAI.O(.data)
+    CH374vUsbPidIn                           0x200000bb   Data           1  CH374MAI.O(.data)
+    CH374vDevEndpTog                         0x200000bc   Data           1  CH374MAI.O(.data)
+    CH374vCurrentLun                         0x200000bd   Data           1  CH374MAI.O(.data)
+    CH374vDiskRetry                          0x200000be   Data           1  CH374MAI.O(.data)
+    CH374vEmbHubIndex                        0x200000bf   Data           1  CH374MAI.O(.data)
+    CH374vHubPortCount                       0x200000c0   Data           1  CH374MAI.O(.data)
+    CH374vHubPortIndex                       0x200000c1   Data           1  CH374MAI.O(.data)
+    CH374vSectorSize                         0x200000c2   Data           2  CH374MAI.O(.data)
+    pDISK_BASE_BUF                           0x200000c4   Data           4  CH374MAI.O(.data)
+    CH374v01                                 0x200000c8   Data           4  CH374MAI.O(.data)
+    CH374v02                                 0x200000cc   Data           4  CH374MAI.O(.data)
+    CH374v03                                 0x200000d0   Data           4  CH374MAI.O(.data)
+    CH374v07                                 0x200000d4   Data           1  CH374MAI.O(.data)
+    CH374v08                                 0x200000d8   Data           4  CH374MAI.O(.data)
+    CH374v09                                 0x200000dc   Data           4  CH374MAI.O(.data)
+    CH374v14                                 0x200000e0   Data           4  CH374MAI.O(.data)
+    CH374v17                                 0x200000e4   Data           4  CH374MAI.O(.data)
+    CH374v18                                 0x200000e8   Data           1  CH374MAI.O(.data)
+    CH374v19                                 0x200000ec   Data           4  CH374MAI.O(.data)
+    CH374v21                                 0x200000f0   Data           1  CH374MAI.O(.data)
+    CH374v22                                 0x200000f1   Data           1  CH374MAI.O(.data)
+    CH374v23                                 0x200000f2   Data           1  CH374MAI.O(.data)
+    CH374v25                                 0x200000f4   Data           4  CH374MAI.O(.data)
+    CH374v26                                 0x200000f8   Data           1  CH374MAI.O(.data)
+    ledtime                                  0x200000fc   Data          14  led.o(.bss)
+    scr_info                                 0x2000010c   Data          24  led.o(.bss)
+    area                                     0x20000124   Data         608  led.o(.bss)
+    sim                                      0x20000384   Data          36  led.o(.bss)
+    leddata                                  0x200003a8   Data        8192  led.o(.bss)
+    buf                                      0x200023a8   Data          40  led.o(.bss)
+    sim_buf_red                              0x200023d0   Data        1024  led.o(.bss)
+    sim_buf_green                            0x200027d0   Data        1024  led.o(.bss)
+    usart_buf                                0x20002bd0   Data          50  led.o(.bss)
+    hb_l                                     0x20002c04   Data          70  hb.o(.bss)
+    hb_lgreen                                0x20002c4a   Data          70  hb.o(.bss)
+    hb_r                                     0x20002c90   Data          70  hb.o(.bss)
+    hb_rgreen                                0x20002cd6   Data          70  hb.o(.bss)
+    hb                                       0x20002d1c   Data          16  hb.o(.bss)
+    mCmdParam                                0x20002d2c   Data          32  ch374hft.o(.bss)
+    mBOC                                     0x20002d4c   Data          20  ch374hft.o(.bss)
+    __initial_sp                             0x20003560   Data           0  startup_stm32f10x_md.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x080008ed
+
+  Load Region LR_IROM1 (Base: 0x08000800, Size: 0x0000ce80, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x08000800, Size: 0x0000cd84, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000800   0x000000ec   Data   RO          245    RESET               startup_stm32f10x_md.o
+    0x080008ec   0x00000000   Code   RO          258  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x080008ec   0x00000004   Code   RO          283    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x080008f0   0x00000004   Code   RO          286    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x080008f4   0x00000000   Code   RO          288    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x080008f4   0x00000000   Code   RO          290    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x080008f4   0x00000008   Code   RO          291    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x080008fc   0x00000000   Code   RO          293    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x080008fc   0x00000000   Code   RO          295    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x080008fc   0x00000004   Code   RO          284    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000900   0x000003e4   Code   RO            1    .text               main.o
+    0x08000ce4   0x00000038   Code   RO           47    .text               stm32f10x_it.o
+    0x08000d1c   0x00004610   Code   RO           72    .text               led.o
+    0x0800532c   0x00001988   Code   RO           93    .text               export.o
+    0x08006cb4   0x0000102c   Code   RO          111    .text               hb.o
+    0x08007ce0   0x000006ec   Code   RO          128    .text               wifi_init.o
+    0x080083cc   0x000006c0   Code   RO          150    .text               ch374hft.o
+    0x08008a8c   0x00000ef4   Code   RO          189    .text               clock.o
+    0x08009980   0x00000238   Code   RO          208    .text               flash.o
+    0x08009bb8   0x00000b38   Code   RO          221    .text               stmlib.o
+    0x0800a6f0   0x0000001c   Code   RO          246    .text               startup_stm32f10x_md.o
+    0x0800a70c   0x0000203c   Code   RO          251    .text               CH374HFM.LIB(CH374MAI.O)
+    0x0800c748   0x000003e8   Code   RO          254    .text               CH374HFM.LIB(CH374SEC.O)
+    0x0800cb30   0x00000234   Code   RO          256    .text               CH374HFM.LIB(CH374BYT.O)
+    0x0800cd64   0x00000024   Code   RO          261    .text               mc_w.l(memcpya.o)
+    0x0800cd88   0x00000024   Code   RO          263    .text               mc_w.l(memseta.o)
+    0x0800cdac   0x00000024   Code   RO          265    .text               mc_w.l(strstr.o)
+    0x0800cdd0   0x00000014   Code   RO          267    .text               mc_w.l(strchr.o)
+    0x0800cde4   0x00000012   Code   RO          269    .text               mc_w.l(strcpy.o)
+    0x0800cdf6   0x000000b0   Code   RO          273    .text               mf_w.l(fadd.o)
+    0x0800cea6   0x00000080   Code   RO          275    .text               mf_w.l(fdiv.o)
+    0x0800cf26   0x00000018   Code   RO          277    .text               mf_w.l(fscalb.o)
+    0x0800cf3e   0x0000000a   Code   RO          279    .text               mf_w.l(ffltui.o)
+    0x0800cf48   0x00000028   Code   RO          281    .text               mf_w.l(ffixui.o)
+    0x0800cf70   0x00000000   Code   RO          297    .text               mc_w.l(iusefp.o)
+    0x0800cf70   0x0000006c   Code   RO          298    .text               mf_w.l(fepilogue.o)
+    0x0800cfdc   0x00000024   Code   RO          300    .text               mc_w.l(init.o)
+    0x0800d000   0x0000000e   Code   RO          304    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0800d00e   0x00000002   Code   RO          305    i.__scatterload_null  mc_w.l(handlers.o)
+    0x0800d010   0x0000000e   Code   RO          306    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0800d01e   0x000003c0   Data   RO           74    .constdata          led.o
+    0x0800d3de   0x00000010   Data   RO           94    .constdata          export.o
+    0x0800d3ee   0x000000d6   Data   RO          222    .constdata          stmlib.o
+    0x0800d4c4   0x000000a0   Data   RO          223    .constdata          stmlib.o
+    0x0800d564   0x00000020   Data   RO          302    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00003560, Max: 0x00005000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000004   Data   RW            2    .data               main.o
+    0x20000004   0x00000034   Data   RW           75    .data               led.o
+    0x20000038   0x00000013   Data   RW           95    .data               export.o
+    0x2000004b   0x00000001   Data   RW           96    .data               export.o
+    0x2000004c   0x00000002   Data   RW          113    .data               hb.o
+    0x2000004e   0x00000037   Data   RW          129    .data               wifi_init.o
+    0x20000085   0x00000003   PAD
+    0x20000088   0x00000008   Data   RW          153    .data               ch374hft.o
+    0x20000090   0x00000008   Data   RW          190    .data               clock.o
+    0x20000098   0x00000001   Data   RW          224    .data               stmlib.o
+    0x20000099   0x00000003   PAD
+    0x2000009c   0x0000005d   Data   RW          252    .data               CH374HFM.LIB(CH374MAI.O)
+    0x200000f9   0x00000003   PAD
+    0x200000fc   0x00002b06   Zero   RW           73    .bss                led.o
+    0x20002c02   0x00000002   PAD
+    0x20002c04   0x00000128   Zero   RW          112    .bss                hb.o
+    0x20002d2c   0x00000020   Zero   RW          151    .bss                ch374hft.o
+    0x20002d4c   0x00000014   Zero   RW          152    .bss                ch374hft.o
+    0x20002d60   0x00000800   Zero   RW          243    STACK               startup_stm32f10x_md.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+      1728        114          0          8         52      20380   ch374hft.o
+      3828         94          0          8          0       7324   clock.o
+      6536        170         16         20          0      13234   export.o
+       568         20          0          0          0       2913   flash.o
+      4140         98          0          2        296       7510   hb.o
+     17936        618        960         52      11014      40637   led.o
+       996         78          0          4          0     210872   main.o
+        28          4        236          0       2048        776   startup_stm32f10x_md.o
+        56          4          0          0          0     202850   stm32f10x_it.o
+      2872        194        374          1          0      23648   stmlib.o
+      1772        242          0         55          0       4493   wifi_init.o
+
+    ----------------------------------------------------------------------
+     40460       1636       1618        156      13412     534637   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         0          0          0          6          2          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+       564         60          0          0          0        127   CH374BYT.O
+      8252        658          0         93          0       1016   CH374MAI.O
+      1000         60          0          0          0        189   CH374SEC.O
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+         0          0          0          0          0          0   iusefp.o
+        36          0          0          0          0         68   memcpya.o
+        36          0          0          0          0        108   memseta.o
+        20          0          0          0          0         68   strchr.o
+        18          0          0          0          0         68   strcpy.o
+        36          0          0          0          0         80   strstr.o
+       176          0          0          0          0        140   fadd.o
+       128          0          0          0          0         88   fdiv.o
+       108          0          0          0          0        168   fepilogue.o
+        40          0          0          0          0         68   ffixui.o
+        10          0          0          0          0         68   ffltui.o
+        24          0          0          0          0         68   fscalb.o
+
+    ----------------------------------------------------------------------
+     10534        794          0         96          0       2392   Library Totals
+         0          0          0          3          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+      9816        778          0         93          0       1332   CH374HFM.LIB
+       232         16          0          0          0        460   mc_w.l
+       486          0          0          0          0        600   mf_w.l
+
+    ----------------------------------------------------------------------
+     10534        794          0         96          0       2392   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     50994       2430       1618        252      13412     535527   Grand Totals
+     50994       2430       1618        252      13412     535527   ELF Image Totals
+     50994       2430       1618        252          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                52612 (  51.38kB)
+    Total RW  Size (RW Data + ZI Data)             13664 (  13.34kB)
+    Total ROM Size (Code + RO Data + RW Data)      52864 (  51.63kB)
+
+==============================================================================
+

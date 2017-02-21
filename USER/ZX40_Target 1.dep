@@ -1,0 +1,102 @@
+Dependencies for Project 'ZX40', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x58AB0D22)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\main.o" --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d")
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+I (export.h)(0x583975E2)
+I (..\SYSTEM\clock.h)(0x5579608C)
+I (led.h)(0x58A3B337)
+I (hb.h)(0x5579608C)
+F (.\stm32f10x_it.c)(0x5579608C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\stm32f10x_it.o" --omf_browse "..\OBJ\stm32f10x_it.crf" --depend "..\OBJ\stm32f10x_it.d")
+I (stm32f10x_it.h)(0x5579608C)
+I (stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+F (.\led.c)(0x58AB0CDD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\led.o" --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d")
+I (led.h)(0x58A3B337)
+I (export.h)(0x583975E2)
+I (..\SYSTEM\clock.h)(0x5579608C)
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+I (hb.h)(0x5579608C)
+F (.\export.c)(0x5842B915)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\export.o" --omf_browse "..\OBJ\export.crf" --depend "..\OBJ\export.d")
+I (export.h)(0x583975E2)
+I (led.h)(0x58A3B337)
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+I (hb.h)(0x5579608C)
+F (.\hb.c)(0x568B8F90)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\hb.o" --omf_browse "..\OBJ\hb.crf" --depend "..\OBJ\hb.d")
+I (hb.h)(0x5579608C)
+I (led.h)(0x58A3B337)
+I (export.h)(0x583975E2)
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+F (.\wifi_init.c)(0x57EA52DB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\wifi_init.o" --omf_browse "..\OBJ\wifi_init.crf" --depend "..\OBJ\wifi_init.d")
+I (led.h)(0x58A3B337)
+I (export.h)(0x583975E2)
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+F (..\SYSTEM\CH374HFT.C)(0x5579608C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\ch374hft.o" --omf_browse "..\OBJ\ch374hft.crf" --depend "..\OBJ\ch374hft.d")
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0D286)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\SYSTEM\SPI.h)(0x5579608C)
+I (..\SYSTEM\CH374HFM.H)(0x5579608C)
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (..\USER\rhx.h)(0x57DBE930)
+I (..\USER\led.h)(0x58A3B337)
+I (..\USER\export.h)(0x583975E2)
+F (..\SYSTEM\clock.c)(0x568B8B62)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\clock.o" --omf_browse "..\OBJ\clock.crf" --depend "..\OBJ\clock.d")
+I (..\SYSTEM\clock.h)(0x5579608C)
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+I (..\USER\led.h)(0x58A3B337)
+I (..\USER\export.h)(0x583975E2)
+I (..\USER\hb.h)(0x5579608C)
+F (..\SYSTEM\flash.c)(0x568B9004)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\flash.o" --omf_browse "..\OBJ\flash.crf" --depend "..\OBJ\flash.d")
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+F (..\SYSTEM\stmlib.c)(0x57B97027)(-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o "..\OBJ\stmlib.o" --omf_browse "..\OBJ\stmlib.crf" --depend "..\OBJ\stmlib.d")
+I (..\SYSTEM\stmlib.h)(0x564D2C36)
+I (..\USER\stm32f10x.h)(0x5579608C)
+I (..\CORE\core_cm3.h)(0x5579608C)
+I (d:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (d:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0D286)
+I (..\USER\rhx.h)(0x57DBE930)
+I (..\USER\led.h)(0x58A3B337)
+I (..\USER\export.h)(0x583975E2)
+F (..\SYSTEM\CH374HFM.LIB)(0x5579608C)()
+F (..\CORE\startup_stm32f10x_md.s)(0x5579608C)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I d:\Keil\ARM\RV31\INC -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\ST\STM32F10x --list ".\startup_stm32f10x_md.lst" --xref -o "..\OBJ\startup_stm32f10x_md.o" --depend "..\OBJ\startup_stm32f10x_md.d")
+F (.\Î¬»¤ËµÃ÷.txt)(0x58A3C994)()

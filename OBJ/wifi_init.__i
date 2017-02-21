@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork -I..\SYSTEM -I..\USER -I..\CORE 
+-I d:\Keil\ARM\RV31\INC 
+-I d:\Keil\ARM\CMSIS\Include 
+-I d:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -o "..\OBJ\wifi_init.o" --omf_browse "..\OBJ\wifi_init.crf" --depend "..\OBJ\wifi_init.d" "wifi_init.c"

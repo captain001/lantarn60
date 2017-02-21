@@ -1,0 +1,9 @@
+..\OBJ\wifi_init.o: wifi_init.c
+..\OBJ\wifi_init.o: led.h
+..\OBJ\wifi_init.o: export.h
+..\OBJ\wifi_init.o: ..\SYSTEM\stmlib.h
+..\OBJ\wifi_init.o: ..\USER\stm32f10x.h
+..\OBJ\wifi_init.o: ..\CORE\core_cm3.h
+..\OBJ\wifi_init.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\wifi_init.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\OBJ\wifi_init.o: ..\USER\rhx.h

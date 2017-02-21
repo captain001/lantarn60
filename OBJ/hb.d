@@ -1,0 +1,10 @@
+..\OBJ\hb.o: hb.c
+..\OBJ\hb.o: hb.h
+..\OBJ\hb.o: led.h
+..\OBJ\hb.o: export.h
+..\OBJ\hb.o: ..\SYSTEM\stmlib.h
+..\OBJ\hb.o: ..\USER\stm32f10x.h
+..\OBJ\hb.o: ..\CORE\core_cm3.h
+..\OBJ\hb.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\hb.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\OBJ\hb.o: ..\USER\rhx.h

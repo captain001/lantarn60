@@ -1,0 +1,14 @@
+..\OBJ\ch374hft.o: ..\SYSTEM\CH374HFT.C
+..\OBJ\ch374hft.o: d:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+..\OBJ\ch374hft.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\OBJ\ch374hft.o: ..\SYSTEM\SPI.h
+..\OBJ\ch374hft.o: ..\SYSTEM\CH374HFM.H
+..\OBJ\ch374hft.o: ..\SYSTEM\stmlib.h
+..\OBJ\ch374hft.o: ..\USER\stm32f10x.h
+..\OBJ\ch374hft.o: ..\CORE\core_cm3.h
+..\OBJ\ch374hft.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\ch374hft.o: ..\USER\rhx.h
+..\OBJ\ch374hft.o: ..\USER\led.h
+..\OBJ\ch374hft.o: ..\USER\export.h
+..\OBJ\ch374hft.o: ..\SYSTEM\CH374HFM.H
+..\OBJ\ch374hft.o: ..\SYSTEM\stmlib.h

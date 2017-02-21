@@ -1,0 +1,1294 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\项目中心2015\灯笼\软件系统\程序\60-样品-160821 - BMW - 5026\USER\ZX40.uvproj
+Project File Date:  09/16/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(506): warning:  #223-D: function "rand" declared implicitly
+main.c(837): warning:  #111-D: statement is unreachable
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+compiling export.c...
+export.c(122): warning:  #177-D: variable "i" was declared but never referenced
+export.c(125): warning:  #177-D: variable "green" was declared but never referenced
+export.c(127): warning:  #177-D: variable "disp_n" was declared but never referenced
+export.c(208): warning:  #177-D: variable "i" was declared but never referenced
+export.c(210): warning:  #177-D: variable "green" was declared but never referenced
+export.c(211): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=32922 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 14 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(506): warning:  #223-D: function "rand" declared implicitly
+main.c(839): warning:  #111-D: statement is unreachable
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=32926 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 8 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(421): warning:  #111-D: statement is unreachable
+main.c(427): warning:  #111-D: statement is unreachable
+main.c(519): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31674 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(423): warning:  #111-D: statement is unreachable
+main.c(428): warning:  #111-D: statement is unreachable
+main.c(520): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31682 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(423): warning:  #111-D: statement is unreachable
+main.c(428): warning:  #111-D: statement is unreachable
+main.c(520): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31682 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(423): warning:  #111-D: statement is unreachable
+main.c(428): warning:  #111-D: statement is unreachable
+main.c(520): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31686 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(427): warning:  #111-D: statement is unreachable
+main.c(429): warning:  #111-D: statement is unreachable
+main.c(521): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31690 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(423): warning:  #69-D: integer conversion resulted in truncation
+main.c(429): warning:  #111-D: statement is unreachable
+main.c(431): warning:  #111-D: statement is unreachable
+main.c(523): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31698 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(429): warning:  #111-D: statement is unreachable
+main.c(431): warning:  #111-D: statement is unreachable
+main.c(523): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31698 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(429): warning:  #111-D: statement is unreachable
+main.c(431): warning:  #111-D: statement is unreachable
+main.c(523): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31698 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(431): warning:  #111-D: statement is unreachable
+main.c(523): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31706 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 8 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(431): warning:  #111-D: statement is unreachable
+main.c(523): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31706 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 8 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(439): warning:  #111-D: statement is unreachable
+main.c(524): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31710 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 8 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(428): warning:  #111-D: statement is unreachable
+main.c(439): warning:  #111-D: statement is unreachable
+main.c(524): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31698 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(428): warning:  #111-D: statement is unreachable
+main.c(439): warning:  #111-D: statement is unreachable
+main.c(524): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31698 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(428): warning:  #111-D: statement is unreachable
+main.c(440): warning:  #111-D: statement is unreachable
+main.c(525): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31702 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(428): warning:  #111-D: statement is unreachable
+main.c(435): warning:  #111-D: statement is unreachable
+main.c(525): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+linking...
+Program Size: Code=31702 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=31702 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(122): warning:  #177-D: variable "i" was declared but never referenced
+export.c(125): warning:  #177-D: variable "green" was declared but never referenced
+export.c(127): warning:  #177-D: variable "disp_n" was declared but never referenced
+export.c(208): warning:  #177-D: variable "i" was declared but never referenced
+export.c(210): warning:  #177-D: variable "green" was declared but never referenced
+export.c(211): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=31702 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(162): warning:  #223-D: function "HL_LC" declared implicitly
+export.c(122): warning:  #177-D: variable "i" was declared but never referenced
+export.c(125): warning:  #177-D: variable "green" was declared but never referenced
+export.c(127): warning:  #177-D: variable "disp_n" was declared but never referenced
+export.c(245): warning:  #223-D: function "HL_LC" declared implicitly
+export.c(208): warning:  #177-D: variable "i" was declared but never referenced
+export.c(210): warning:  #177-D: variable "green" was declared but never referenced
+export.c(211): warning:  #550-D: variable "temp" was set but never used
+linking...
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol HL_LC (referred from export.o).
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(40): error:  #70: incomplete type is not allowed
+export.c(40): error:  #65: expected a ";"
+export.c(93): warning:  #12-D: parsing restarts here after previous syntax error
+export.c(94): error:  #77-D: this declaration has no storage class or type specifier
+export.c(94): error:  #20: identifier "d" is undefined
+export.c(95): error:  #169: expected a declaration
+export.c(98): warning:  #12-D: parsing restarts here after previous syntax error
+export.c(148): warning:  #223-D: function "export_s32" declared implicitly
+export.c(153): warning:  #223-D: function "HL_LCA" declared implicitly
+export.c(162): warning:  #223-D: function "HL_LC" declared implicitly
+export.c(163): warning:  #223-D: function "HL_LCB" declared implicitly
+export.c(122): warning:  #177-D: variable "i" was declared but never referenced
+export.c(125): warning:  #177-D: variable "green" was declared but never referenced
+export.c(127): warning:  #177-D: variable "disp_n" was declared but never referenced
+export.c(242): warning:  #223-D: function "export_s32" declared implicitly
+export.c(245): warning:  #223-D: function "HL_LC" declared implicitly
+export.c(249): warning:  #223-D: function "HL_LCA" declared implicitly
+export.c(251): warning:  #223-D: function "HL_LCB" declared implicitly
+export.c(208): warning:  #177-D: variable "i" was declared but never referenced
+export.c(210): warning:  #177-D: variable "green" was declared but never referenced
+export.c(211): warning:  #550-D: variable "temp" was set but never used
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(153): warning:  #223-D: function "HL_LCA" declared implicitly
+export.c(162): warning:  #223-D: function "HL_LC" declared implicitly
+export.c(163): warning:  #223-D: function "HL_LCB" declared implicitly
+export.c(122): warning:  #177-D: variable "i" was declared but never referenced
+export.c(125): warning:  #177-D: variable "green" was declared but never referenced
+export.c(127): warning:  #177-D: variable "disp_n" was declared but never referenced
+export.c(245): warning:  #223-D: function "HL_LC" declared implicitly
+export.c(249): warning:  #223-D: function "HL_LCA" declared implicitly
+export.c(251): warning:  #223-D: function "HL_LCB" declared implicitly
+export.c(208): warning:  #177-D: variable "i" was declared but never referenced
+export.c(210): warning:  #177-D: variable "green" was declared but never referenced
+export.c(211): warning:  #550-D: variable "temp" was set but never used
+export.c(40): warning:  #177-D: function "DT_SCK" was declared but never referenced
+export.c(55): warning:  #177-D: function "DT_LT" was declared but never referenced
+linking...
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol HL_LC (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol HL_LCA (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol HL_LCB (referred from export.o).
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(122): warning:  #177-D: variable "i" was declared but never referenced
+export.c(125): warning:  #177-D: variable "green" was declared but never referenced
+export.c(127): warning:  #177-D: variable "disp_n" was declared but never referenced
+export.c(245): warning:  #223-D: function "HL_LC" declared implicitly
+export.c(249): warning:  #223-D: function "HL_LCA" declared implicitly
+export.c(251): warning:  #223-D: function "HL_LCB" declared implicitly
+export.c(208): warning:  #177-D: variable "i" was declared but never referenced
+export.c(210): warning:  #177-D: variable "green" was declared but never referenced
+export.c(211): warning:  #550-D: variable "temp" was set but never used
+export.c(40): warning:  #177-D: function "DT_SCK" was declared but never referenced
+export.c(55): warning:  #177-D: function "DT_LT" was declared but never referenced
+linking...
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol HL_LC (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol HL_LCA (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol HL_LCB (referred from export.o).
+Target not created
+compiling export.c...
+export.c(208): warning:  #177-D: variable "i" was declared but never referenced
+export.c(210): warning:  #177-D: variable "green" was declared but never referenced
+export.c(211): warning:  #550-D: variable "temp" was set but never used
+export.c(40): warning:  #177-D: function "DT_SCK" was declared but never referenced
+export.c(55): warning:  #177-D: function "DT_LT" was declared but never referenced
+export.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=31602 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(186): warning:  #177-D: variable "i" was declared but never referenced
+export.c(188): warning:  #177-D: variable "green" was declared but never referenced
+export.c(189): warning:  #550-D: variable "temp" was set but never used
+export.c(33): warning:  #177-D: function "DT_SCK" was declared but never referenced
+export.c(40): warning:  #177-D: function "DT_LT" was declared but never referenced
+linking...
+Program Size: Code=31590 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(193): warning:  #177-D: variable "i" was declared but never referenced
+export.c(195): warning:  #177-D: variable "green" was declared but never referenced
+export.c(196): warning:  #550-D: variable "temp" was set but never used
+export.c(40): warning:  #177-D: function "DT_SCK" was declared but never referenced
+export.c(47): warning:  #177-D: function "DT_LT" was declared but never referenced
+linking...
+Program Size: Code=31618 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(193): warning:  #177-D: variable "i" was declared but never referenced
+export.c(195): warning:  #177-D: variable "green" was declared but never referenced
+export.c(196): warning:  #550-D: variable "temp" was set but never used
+export.c(40): warning:  #177-D: function "DT_SCK" was declared but never referenced
+export.c(47): warning:  #177-D: function "DT_LT" was declared but never referenced
+linking...
+Program Size: Code=31618 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(193): warning:  #177-D: variable "i" was declared but never referenced
+export.c(195): warning:  #177-D: variable "green" was declared but never referenced
+export.c(196): warning:  #550-D: variable "temp" was set but never used
+export.c(40): warning:  #177-D: function "DT_SCK" was declared but never referenced
+export.c(47): warning:  #177-D: function "DT_LT" was declared but never referenced
+linking...
+Program Size: Code=31618 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(172): warning:  #177-D: variable "i" was declared but never referenced
+export.c(174): warning:  #177-D: variable "green" was declared but never referenced
+export.c(175): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=31666 RO-data=1666 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(526): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33402 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(172): warning:  #177-D: variable "i" was declared but never referenced
+export.c(174): warning:  #177-D: variable "green" was declared but never referenced
+export.c(175): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33406 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33402 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33418 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33418 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33402 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=33402 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33418 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=33418 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33402 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #550-D: variable "red" was set but never used
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33394 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #550-D: variable "red" was set but never used
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33426 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #550-D: variable "red" was set but never used
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33410 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #550-D: variable "red" was set but never used
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33394 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(173): warning:  #177-D: variable "i" was declared but never referenced
+export.c(175): warning:  #550-D: variable "red" was set but never used
+export.c(175): warning:  #177-D: variable "green" was declared but never referenced
+export.c(176): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33414 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(126): error:  #20: identifier "i" is undefined
+export.c(175): warning:  #177-D: variable "i" was declared but never referenced
+export.c(177): warning:  #550-D: variable "red" was set but never used
+export.c(177): warning:  #177-D: variable "green" was declared but never referenced
+export.c(178): warning:  #550-D: variable "temp" was set but never used
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(175): warning:  #177-D: variable "i" was declared but never referenced
+export.c(177): warning:  #550-D: variable "red" was set but never used
+export.c(177): warning:  #177-D: variable "green" was declared but never referenced
+export.c(178): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33426 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(175): warning:  #177-D: variable "i" was declared but never referenced
+export.c(177): warning:  #550-D: variable "red" was set but never used
+export.c(177): warning:  #177-D: variable "green" was declared but never referenced
+export.c(178): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33410 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(176): warning:  #177-D: variable "i" was declared but never referenced
+export.c(178): warning:  #550-D: variable "red" was set but never used
+export.c(178): warning:  #177-D: variable "green" was declared but never referenced
+export.c(179): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33422 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(177): warning:  #177-D: variable "i" was declared but never referenced
+export.c(179): warning:  #550-D: variable "red" was set but never used
+export.c(179): warning:  #177-D: variable "green" was declared but never referenced
+export.c(180): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33422 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(179): warning:  #177-D: variable "i" was declared but never referenced
+export.c(181): warning:  #550-D: variable "red" was set but never used
+export.c(181): warning:  #177-D: variable "green" was declared but never referenced
+export.c(182): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33434 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(90): warning:  #223-D: function "PORT_G1_LOW" declared implicitly
+export.c(91): warning:  #223-D: function "PORT_G2_LOW" declared implicitly
+export.c(93): warning:  #223-D: function "PORT_CLK_LOW" declared implicitly
+export.c(94): warning:  #223-D: function "PORT_R1_HIGH" declared implicitly
+export.c(95): warning:  #223-D: function "PORT_R1_LOW" declared implicitly
+export.c(97): warning:  #223-D: function "delay_nop" declared implicitly
+export.c(98): warning:  #223-D: function "PORT_CLK_HIGH" declared implicitly
+export.c(244): warning:  #177-D: variable "i" was declared but never referenced
+export.c(246): warning:  #550-D: variable "red" was set but never used
+export.c(246): warning:  #177-D: variable "green" was declared but never referenced
+export.c(247): warning:  #550-D: variable "temp" was set but never used
+linking...
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_CLK_HIGH (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_CLK_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_G1_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_G2_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_R1_HIGH (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_R1_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol delay_nop (referred from export.o).
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(105): warning:  #223-D: function "PORT_G1_LOW" declared implicitly
+export.c(106): warning:  #223-D: function "PORT_G2_LOW" declared implicitly
+export.c(108): warning:  #223-D: function "PORT_CLK_LOW" declared implicitly
+export.c(109): warning:  #223-D: function "PORT_R1_HIGH" declared implicitly
+export.c(110): warning:  #223-D: function "PORT_R1_LOW" declared implicitly
+export.c(112): warning:  #223-D: function "delay_nop" declared implicitly
+export.c(113): warning:  #223-D: function "PORT_CLK_HIGH" declared implicitly
+export.c(259): warning:  #177-D: variable "i" was declared but never referenced
+export.c(261): warning:  #550-D: variable "red" was set but never used
+export.c(261): warning:  #177-D: variable "green" was declared but never referenced
+export.c(262): warning:  #550-D: variable "temp" was set but never used
+linking...
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_CLK_HIGH (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_CLK_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_G1_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_G2_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_R1_HIGH (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_R1_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol delay_nop (referred from export.o).
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(108): warning:  #223-D: function "PORT_G1_LOW" declared implicitly
+export.c(109): warning:  #223-D: function "PORT_G2_LOW" declared implicitly
+export.c(111): warning:  #223-D: function "PORT_CLK_LOW" declared implicitly
+export.c(112): warning:  #223-D: function "PORT_R1_HIGH" declared implicitly
+export.c(113): warning:  #223-D: function "PORT_R1_LOW" declared implicitly
+export.c(115): warning:  #223-D: function "delay_nop" declared implicitly
+export.c(116): warning:  #223-D: function "PORT_CLK_HIGH" declared implicitly
+export.c(262): warning:  #177-D: variable "i" was declared but never referenced
+export.c(264): warning:  #550-D: variable "red" was set but never used
+export.c(264): warning:  #177-D: variable "green" was declared but never referenced
+export.c(265): warning:  #550-D: variable "temp" was set but never used
+linking...
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_CLK_HIGH (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_CLK_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_G1_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_G2_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_R1_HIGH (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol PORT_R1_LOW (referred from export.o).
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol delay_nop (referred from export.o).
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(124): warning:  #223-D: function "delay_nop" declared implicitly
+export.c(270): warning:  #177-D: variable "i" was declared but never referenced
+export.c(272): warning:  #550-D: variable "red" was set but never used
+export.c(272): warning:  #177-D: variable "green" was declared but never referenced
+export.c(273): warning:  #550-D: variable "temp" was set but never used
+linking...
+..\OBJ\ZX60.axf: Error: L6218E: Undefined symbol delay_nop (referred from export.o).
+Target not created
+Build target 'Target 1'
+compiling export.c...
+export.c(274): warning:  #177-D: variable "i" was declared but never referenced
+export.c(276): warning:  #550-D: variable "red" was set but never used
+export.c(276): warning:  #177-D: variable "green" was declared but never referenced
+export.c(277): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33634 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(277): warning:  #550-D: variable "red" was set but never used
+export.c(277): warning:  #177-D: variable "green" was declared but never referenced
+export.c(278): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33634 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(291): warning:  #177-D: variable "i" was declared but never referenced
+export.c(293): warning:  #550-D: variable "red" was set but never used
+export.c(293): warning:  #177-D: variable "green" was declared but never referenced
+export.c(294): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33634 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(277): warning:  #177-D: variable "green" was declared but never referenced
+export.c(278): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33622 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(277): warning:  #177-D: variable "green" was declared but never referenced
+export.c(278): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33618 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(277): warning:  #177-D: variable "green" was declared but never referenced
+export.c(278): warning:  #550-D: variable "temp" was set but never used
+export.c(277): warning: C3017W: red may be used before being set
+linking...
+Program Size: Code=33630 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 5 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(277): warning:  #177-D: variable "green" was declared but never referenced
+export.c(278): warning:  #550-D: variable "temp" was set but never used
+export.c(277): warning: C3017W: red may be used before being set
+linking...
+Program Size: Code=33634 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 5 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(279): warning:  #550-D: variable "temp" was set but never used
+export.c(278): warning: C3017W: red may be used before being set
+linking...
+Program Size: Code=33626 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(279): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33626 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(279): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33626 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "i" was declared but never referenced
+export.c(279): warning:  #550-D: variable "temp" was set but never used
+linking...
+Program Size: Code=33626 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(279): warning:  #177-D: variable "temp" was declared but never referenced
+linking...
+Program Size: Code=33626 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(279): warning:  #177-D: variable "temp" was declared but never referenced
+linking...
+Program Size: Code=33570 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "temp" was declared but never referenced
+linking...
+Program Size: Code=33570 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=33570 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=33570 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling export.c...
+export.c(191): warning:  #177-D: variable "i" was declared but never referenced
+export.c(275): warning:  #177-D: variable "temp" was declared but never referenced
+linking...
+Program Size: Code=33358 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 2 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(526): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33354 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 9 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(395): warning:  #174-D: expression has no effect
+main.c(527): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33402 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(395): warning:  #174-D: expression has no effect
+main.c(527): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33362 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33366 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33358 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33358 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33362 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33362 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33362 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33362 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\OBJ\\ZX60.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(394): warning:  #174-D: expression has no effect
+main.c(528): warning:  #223-D: function "rand" declared implicitly
+main.c(139): warning:  #177-D: variable "ch" was declared but never referenced
+main.c(146): warning:  #177-D: variable "dat2" was declared but never referenced
+main.c(147): warning:  #177-D: variable "begin" was declared but never referenced
+main.c(149): warning:  #177-D: variable "tmp1" was declared but never referenced
+main.c(150): warning:  #177-D: variable "tmp2" was declared but never referenced
+main.c(151): warning:  #177-D: variable "indi" was declared but never referenced
+main.c(130): warning: C3017W: i may be used before being set
+main.c(130): warning: C3017W: j may be used before being set
+linking...
+Program Size: Code=33362 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=33362 RO-data=1666 RW-data=1380 ZI-data=13548  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 0 Warning(s).

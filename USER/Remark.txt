@@ -1,0 +1,33 @@
+屏蔽中断4初始化   //MY_NVIC_Init(1,0,TIM4_IRQn);
+2，修改    void TIM2_IRQHandler(void)
+
+修改  led.c    326       void clr_screen()
+
+
+led.c    3740
+屏蔽中断显示里的  显示部分  void TIM2_IRQHandler(void)
+屏蔽TIM2中断
+stmlib.c			408
+void NVIC_Configuration(void) 		
+
+
+0821		void LEDPowerLow(void)     修改
+
+
+main   375行  屏蔽软复位
+
+// 			SoftReset();//*((u32 *)0xE000ED0C) = 0x05fa0004;			//复位
+// 			
+// 			while(1);
+
+
+串口中断接收命令位置：  led.c   3389行
+void USART1_IRQHandler(void)  
+
+ZX60程序
+17.02.13
+
+增加版本显示 V1.01
+修改启动版本延时
+添加花样随机模式		OK
+led.c   719行 //hb.flag=1;      //花边标志 					软件没处理好乱码之前禁止花边功能

@@ -1,0 +1,31 @@
+---- pArg->st Matches (30 in 2 files) ----
+Clock.c (d:\desktop\头文件\rh-new\rh-new\system):	pArg->st=1;  
+Clock.c (d:\desktop\头文件\rh-new\rh-new\system):		pArg->st=1;  
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):	pArg->st=1;  //当前分区正在停留标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		 pArg->st=1;
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;  //节目正在停留标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;       //节目正在停留标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;	  //停留标志置1 
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;         //停留标志置1
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;          //停留时间标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1; //节目停留时间
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1;  //每屏数据移动完之后停顿一下
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1;         //没屏停顿
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;         //停留标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1; 	//每屏数据移动完之后停顿一下
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1;       //每屏停顿
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;       //停留标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1;	 //每屏数据移动完之后停顿一下
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1;          //每屏停顿
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		 pArg->st = 0;
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):				pArg->st = 1;
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1; //每屏数据移动完之后停顿一下
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):			pArg->st=1;        //每屏停顿
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st = 0;         //停留标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):				pArg->st = 1;
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		pArg->st=1;         //停留标志，每屏停顿一下
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):	pArg->st=1;	 //停留标志
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):	pArg->st=1;  
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):	pArg->st=1;  
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):		if(pArg->st){			//正在停留
+Led.c (d:\desktop\头文件\rh-new\rh-new\user):				pArg->st=0;

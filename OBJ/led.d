@@ -1,0 +1,12 @@
+..\OBJ\led.o: led.c
+..\OBJ\led.o: led.h
+..\OBJ\led.o: export.h
+..\OBJ\led.o: ..\SYSTEM\clock.h
+..\OBJ\led.o: ..\SYSTEM\stmlib.h
+..\OBJ\led.o: ..\USER\stm32f10x.h
+..\OBJ\led.o: ..\CORE\core_cm3.h
+..\OBJ\led.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\led.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+..\OBJ\led.o: ..\USER\rhx.h
+..\OBJ\led.o: ..\SYSTEM\stmlib.h
+..\OBJ\led.o: hb.h

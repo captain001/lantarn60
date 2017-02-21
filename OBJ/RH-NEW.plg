@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\项目中心2015\灯笼\系统定制\程序\RH-NEW_deng201601051842-1\RH-NEW_deng201601051842\RH-NEW_deng3333\RH-NEW\USER\XB-W2.uvproj
+Project File Date:  12/31/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(118): warning: C3017W: i may be used before being set
+main.c(118): warning: C3017W: j may be used before being set
+compiling stm32f10x_it.c...
+compiling led.c...
+led.c(376): warning:  #550-D: variable "S_64" was set but never used
+led.c(376): warning:  #550-D: variable "S_48" was set but never used
+led.c(376): warning:  #550-D: variable "S_32" was set but never used
+led.c(376): warning:  #550-D: variable "D_64" was set but never used
+led.c(376): warning:  #550-D: variable "D_48" was set but never used
+led.c(376): warning:  #550-D: variable "D_32" was set but never used
+led.c(378): warning:  #177-D: variable "wVirHigh" was declared but never referenced
+led.c(4455): warning:  #177-D: variable "type" was declared but never referenced
+led.c(4456): warning: C3017W: n may be used before being set
+compiling export.c...
+export.c(100): warning:  #177-D: variable "green" was declared but never referenced
+export.c(137): warning:  #177-D: variable "green" was declared but never referenced
+export.c(138): warning:  #550-D: variable "temp" was set but never used
+compiling hb.c...
+compiling wifi_init.c...
+compiling CH374HFT.C...
+compiling clock.c...
+compiling flash.c...
+compiling stmlib.c...
+linking...
+Program Size: Code=32678 RO-data=1762 RW-data=1376 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZDB.axf" - 0 Error(s), 14 Warning(s).

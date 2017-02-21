@@ -1,0 +1,217 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\项目中心2015\灯笼\软件系统\程序\60-BMW - 5026正装 -随机花样\USER\ZX40.uvproj
+Project File Date:  11/27/2016
+
+<h2>Output:</h2>
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(500): warning:  #223-D: function "rand" declared implicitly
+main.c(870): warning:  #223-D: function "rand" declared implicitly
+main.c(1094): warning:  #223-D: function "clear_disp_ram" declared implicitly
+main.c(132): warning: C3017W: i may be used before being set
+main.c(132): warning: C3017W: jj may be used before being set
+main.c(132): warning: C3017W: j may be used before being set
+main.c(132): warning: C3017W: ii may be used before being set
+linking...
+Program Size: Code=34226 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 7 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(500): warning:  #223-D: function "rand" declared implicitly
+main.c(870): warning:  #223-D: function "rand" declared implicitly
+main.c(1094): warning:  #223-D: function "clear_disp_ram" declared implicitly
+main.c(132): warning: C3017W: i may be used before being set
+main.c(132): warning: C3017W: jj may be used before being set
+main.c(132): warning: C3017W: j may be used before being set
+main.c(132): warning: C3017W: ii may be used before being set
+linking...
+Program Size: Code=34234 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(500): warning:  #223-D: function "rand" declared implicitly
+main.c(870): warning:  #223-D: function "rand" declared implicitly
+main.c(1094): warning:  #223-D: function "clear_disp_ram" declared implicitly
+main.c(132): warning: C3017W: i may be used before being set
+main.c(132): warning: C3017W: jj may be used before being set
+main.c(132): warning: C3017W: j may be used before being set
+main.c(132): warning: C3017W: ii may be used before being set
+linking...
+Program Size: Code=34250 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 7 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(500): warning:  #223-D: function "rand" declared implicitly
+main.c(725): warning:  #111-D: statement is unreachable
+main.c(870): warning:  #223-D: function "rand" declared implicitly
+main.c(1094): warning:  #223-D: function "clear_disp_ram" declared implicitly
+linking...
+Program Size: Code=32630 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(500): warning:  #223-D: function "rand" declared implicitly
+main.c(870): warning:  #223-D: function "rand" declared implicitly
+main.c(1094): warning:  #223-D: function "clear_disp_ram" declared implicitly
+main.c(132): warning: C3017W: i may be used before being set
+main.c(132): warning: C3017W: jj may be used before being set
+main.c(132): warning: C3017W: j may be used before being set
+main.c(132): warning: C3017W: ii may be used before being set
+linking...
+Program Size: Code=34250 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 7 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling led.c...
+led.c(143): warning:  #177-D: variable "i" was declared but never referenced
+led.c(143): warning:  #177-D: variable "j" was declared but never referenced
+led.c(429): warning:  #550-D: variable "S_64" was set but never used
+led.c(429): warning:  #550-D: variable "S_48" was set but never used
+led.c(429): warning:  #550-D: variable "S_32" was set but never used
+led.c(429): warning:  #550-D: variable "D_64" was set but never used
+led.c(429): warning:  #550-D: variable "D_48" was set but never used
+led.c(429): warning:  #550-D: variable "D_32" was set but never used
+led.c(431): warning:  #177-D: variable "wVirHigh" was declared but never referenced
+led.c(4651): warning:  #177-D: variable "type" was declared but never referenced
+led.c(266): warning:  #177-D: function "LEDShowModifyDate" was declared but never referenced
+led.c(4652): warning: C3017W: n may be used before being set
+linking...
+Program Size: Code=34258 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 12 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(502): warning:  #223-D: function "rand" declared implicitly
+main.c(872): warning:  #223-D: function "rand" declared implicitly
+main.c(1096): warning:  #223-D: function "clear_disp_ram" declared implicitly
+main.c(132): warning: C3017W: i may be used before being set
+main.c(132): warning: C3017W: jj may be used before being set
+main.c(132): warning: C3017W: j may be used before being set
+main.c(132): warning: C3017W: ii may be used before being set
+linking...
+Program Size: Code=34270 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 7 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(502): warning:  #223-D: function "rand" declared implicitly
+main.c(727): warning:  #111-D: statement is unreachable
+main.c(872): warning:  #223-D: function "rand" declared implicitly
+main.c(1096): warning:  #223-D: function "clear_disp_ram" declared implicitly
+linking...
+Program Size: Code=32650 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(502): warning:  #223-D: function "rand" declared implicitly
+main.c(727): warning:  #111-D: statement is unreachable
+main.c(872): warning:  #223-D: function "rand" declared implicitly
+main.c(1096): warning:  #223-D: function "clear_disp_ram" declared implicitly
+linking...
+Program Size: Code=32674 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(502): warning:  #223-D: function "rand" declared implicitly
+main.c(872): warning:  #223-D: function "rand" declared implicitly
+main.c(1096): warning:  #223-D: function "clear_disp_ram" declared implicitly
+main.c(132): warning: C3017W: i may be used before being set
+main.c(132): warning: C3017W: jj may be used before being set
+main.c(132): warning: C3017W: j may be used before being set
+main.c(132): warning: C3017W: ii may be used before being set
+compiling led.c...
+led.c(143): warning:  #177-D: variable "i" was declared but never referenced
+led.c(143): warning:  #177-D: variable "j" was declared but never referenced
+led.c(429): warning:  #550-D: variable "S_64" was set but never used
+led.c(429): warning:  #550-D: variable "S_48" was set but never used
+led.c(429): warning:  #550-D: variable "S_32" was set but never used
+led.c(429): warning:  #550-D: variable "D_64" was set but never used
+led.c(429): warning:  #550-D: variable "D_48" was set but never used
+led.c(429): warning:  #550-D: variable "D_32" was set but never used
+led.c(431): warning:  #177-D: variable "wVirHigh" was declared but never referenced
+led.c(4651): warning:  #177-D: variable "type" was declared but never referenced
+led.c(266): warning:  #177-D: function "LEDShowModifyDate" was declared but never referenced
+led.c(4652): warning: C3017W: n may be used before being set
+linking...
+Program Size: Code=34234 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 19 Warning(s).
+Load "..\\OBJ\\ZX60-5026.AXF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+main.c(502): warning:  #223-D: function "rand" declared implicitly
+main.c(872): warning:  #223-D: function "rand" declared implicitly
+main.c(1096): warning:  #223-D: function "clear_disp_ram" declared implicitly
+main.c(132): warning: C3017W: i may be used before being set
+main.c(132): warning: C3017W: jj may be used before being set
+main.c(132): warning: C3017W: j may be used before being set
+main.c(132): warning: C3017W: ii may be used before being set
+linking...
+Program Size: Code=34234 RO-data=1666 RW-data=1384 ZI-data=13544  
+FromELF: creating hex file...
+User command #1: D:\Keil\ARM\bin\fromelf.exe --bin -o ..\RH-NEW.bin  ..\OBJ\RH-NEW.axf
+"..\OBJ\ZX60-5026.axf" - 0 Error(s), 7 Warning(s).

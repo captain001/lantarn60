@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "..\obj\main.o" "..\obj\stm32f10x_it.o" "..\obj\led.o" "..\obj\export.o" "..\obj\hb.o" "..\obj\wifi_init.o" "..\obj\ch374hft.o" "..\obj\clock.o" "..\obj\flash.o" "..\obj\stmlib.o" C:\Users\Administrator\Desktop\RH-NEW_deng201601051743\RH-NEW_deng3333\RH-NEW\SYSTEM\CH374HFM.LIB "..\obj\startup_stm32f10x_md.o" --library_type=microlib --strict --scatter "..\OBJ\RH-NEW.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RH-NEW.map" -o "..\OBJ\RH-NEW.axf"
